@@ -107,6 +107,11 @@ h5 {
   border: solid #cbcbff 0.15rem;
   border-radius: 0.25rem;
 }
+.selected {
+  background-color: blue; 
+  color: white;
+}
+
 
 .tasks .task button.delete {
   padding: 0 0.5rem;

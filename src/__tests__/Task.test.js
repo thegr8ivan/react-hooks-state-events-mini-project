@@ -1,7 +1,8 @@
-import "@testing-library/jest-dom";
-import { render, screen, fireEvent } from "@testing-library/react";
-import App from "../components/App";
+import React from "react";
+import { render, fireEvent, screen } from "@testing-library/react";
+import '@testing-library/jest-dom/extend-expect';
 import Task from "../components/Task";
+import App from "../components/App";
 
 test("displays the task text", () => {
   render(<Task text={"text!"} category={"category!"} />);
